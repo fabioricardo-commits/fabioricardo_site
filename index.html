@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fábio Ricardo Moraes da Silva</title>
+  <meta name="description" content="Site pessoal de Fábio Ricardo Moraes da Silva: estudante, pesquisador e desenvolvedor. Projetos, pesquisa e contato.">
+  <meta property="og:title" content="Fábio Ricardo Moraes da Silva">
+  <meta property="og:description" content="Projetos, pesquisa e contato.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='50%' y='56%' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='30' fill='white'>FR</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="wrap nav">
+      <a class="logo" href="#inicio">FR<span>.</span></a>
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#pesquisa">Pesquisa</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><button class="theme-btn" aria-label="Alternar tema">◐</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero wrap">
+      <p class="eyebrow">Olá, eu sou</p>
+      <h1>Fábio Ricardo<br><em>Moraes da Silva</em></h1>
+      <p class="lead">Estudante da UFG, com interesse em mobilidade urbana, análise de dados e automação com IA.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projetos">Ver projetos</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="wrap section">
+      <h2>Sobre mim</h2>
+      <div class="grid-2">
+        <p>Sou estudante da <strong>Universidade Federal de Goiás (UFG)</strong>. Gosto de unir pesquisa acadêmica e desenvolvimento de software: leio artigos científicos, organizo o que aprendo e transformo ideias em aplicações que qualquer pessoa pode usar no navegador.</p>
+        <p>Uso assistentes de IA para automatizar tarefas como monitorar dados públicos e extrair informações de artigos científicos.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Base</dt><dd>Goiás, Brasil</dd></div>
+        <div><dt>Instituição</dt><dd>UFG</dd></div>
+        <div><dt>Foco</dt><dd>Dados, Web e IA</dd></div>
+        <div><dt>Idiomas</dt><dd>Português</dd></div>
+      </dl>
+    </section>
+
+    <section id="pesquisa" class="wrap section">
+      <h2>Pesquisa</h2>
+      <article class="card wide">
+        <span class="tag">Mobilidade urbana</span>
+        <h3>Detecção de passageiros no transporte público</h3>
+        <p>Estudo de como sinais de smartphones, Wi-Fi e GPS podem estimar a ocupação e o fluxo de passageiros em ônibus e estações. Faço revisão sistemática da literatura, registrando para cada artigo o objetivo, o método, o experimento, as métricas e os principais resultados.</p>
+      </article>
+    </section>
+
+    <section id="projetos" class="wrap section">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">Automação · Dados</span>
+          <h3>Monitor de voos de Congonhas</h3>
+          <p>Rotina que acompanha o painel de voos do aeroporto de Congonhas (CGH), detecta mudanças de terminal e portão de embarque e registra o histórico em planilha.</p>
+        </article>
+        <article class="card">
+          <span class="tag">IA · Pesquisa</span>
+          <h3>Leitor de artigos científicos</h3>
+          <p>Fluxo com IA que lê um artigo em PDF e monta uma ficha estruturada com objetivo, método, métricas e resultados, para acelerar revisões de literatura.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="wrap section">
+      <h2>Habilidades</h2>
+      <ul class="chips">
+        <li>Google Sheets</li><li>Análise de dados</li><li>Revisão de literatura</li><li>Automação com IA</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="wrap section contact">
+      <h2>Vamos conversar</h2>
+      <p>Aberto a projetos, pesquisa colaborativa e oportunidades. Canais de contato em breve.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="ano"></span> Fábio Ricardo Moraes da Silva</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
